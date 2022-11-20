@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #50c6ff;
+    --border-radius: 5px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("/grad_bg.svg");
+    background-size: cover;
+    text-align: center;
+}
+
+#show-modal {
+    padding: .5rem 1.5rem;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    margin: 20px auto 10px;
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+#show-modal:hover {
+    background-color: rgb(255, 149, 0);
+    color: black;
+}
+
+/* Bookmarks */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.item {
+    padding: .25rem .75rem;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: none;
+    border-radius: var(--border-radius);
+}
